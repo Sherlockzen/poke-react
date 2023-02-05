@@ -7,7 +7,6 @@ interface genera {
 
 const getPokemons = (generation: genera) => {
     const [list, setList] = useState([]);
-    console.log(generation)
     // console.log(list)
     const link = 'https://pokeapi.co/api/v2/generation/'+generation.gene+'/'
     useEffect(() => {
